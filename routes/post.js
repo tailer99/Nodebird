@@ -49,7 +49,7 @@ router.post("/", isLoggedIn, upload2.none(), async (req, res, next) => {
           });
         })
       );
-      await post.addHasgtags(result.map((r) => r[0]));
+      await post.addHashtags(result.map((r) => r[0]));
     }
     res.redirect("/");
   } catch (error) {
