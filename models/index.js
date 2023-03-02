@@ -33,4 +33,5 @@ Object.keys(db).forEach((modelName) => {
   }
 });
 
+module.exports = sequelize;
 module.exports = db;

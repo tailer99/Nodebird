@@ -1,4 +1,4 @@
-const { isLoggedIn, isNotLoggedIn } = require("../routes/middlewares");
+const { isLoggedIn, isNotLoggedIn } = require("./middlewares");
 
 describe("isLoggedIn", () => {
   const res = {
